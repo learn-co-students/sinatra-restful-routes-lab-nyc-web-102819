@@ -7,3 +7,5 @@ if ActiveRecord::Migrator.needs_migration?
 end
 
 run ApplicationController
+
+# USE in the event that we have to create a new controller
